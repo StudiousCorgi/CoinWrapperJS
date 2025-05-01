@@ -1,0 +1,21 @@
+body {
+  background-color: #f2f2f2;
+  font-family: monospace;
+}
+
+.receipt-paper {
+  background: #fffefc url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  width: 340px;
+  border: 1px dashed #555;
+  border-radius: 8px;
+  box-shadow: -4px 6px 20px rgba(0, 0, 0, 0.3);
+  font-family: 'Courier New', Courier, monospace;
+  transform: rotate(-1deg);
+}
+
+.receipt-output {
+  white-space: pre-line;
+  border-top: 1px dashed #888;
+  padding-top: 8px;
+  color: #222;
+}

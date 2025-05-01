@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <title>Coin Wrapper Calculator - Bank Teller</title>
+
+  
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+      <div class="receipt-paper p-4">
+        <h2 class="text-center mb-4">Coin Receipt</h2>
+  
+        <div class="mb-2">
+          <label for="pennies">Pennies:</label>
+          <input type="number" class="form-control" id="pennies" value="0" />
+        </div>
+        <div class="mb-2">
+          <label for="nickels">Nickels:</label>
+          <input type="number" class="form-control" id="nickels" value="0" />
+        </div>
+        <div class="mb-2">
+          <label for="dimes">Dimes:</label>
+          <input type="number" class="form-control" id="dimes" value="0" />
+        </div>
+        <div class="mb-3">
+          <label for="quarters">Quarters:</label>
+          <input type="number" class="form-control" id="quarters" value="0" />
+        </div>
+  
+        <button class="btn btn-dark w-100 mb-3" onclick="calculateCoins()">🖨️ Print Receipt</button>
+  
+        <div id="results" class="receipt-output small font-monospace text-break">
+          <em>Results will print here...</em>
+        </div>
+      </div>
+    </div>
+
+<footer>
+    <div class="receipt-footer mt-4 text-center small text-muted">
+        <p>Created by: <strong>Asia Brown</strong></p>
+        <p>Date: <strong>01 May, 2025</strong></p>
+        <p>Contact: <a href="https://github.com/StudiousCorgi">Github: StudiousCorgi</a></p>
+      </div>
+</footer>
+<script src="./script/script.js"></script>
+<script src="./script/bootstrap.bundle.js"></script>
+
+</body>
+
+
+</html>
+
